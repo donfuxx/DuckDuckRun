@@ -1,8 +1,8 @@
 name: Sync Feature Critical Path End-to-End tests
 
 on:
-  schedule:
-    - cron: '0 5 * * *' # run at 5 AM UTC
+  # schedule:
+  #   - cron: '0 5 * * *' # run at 5 AM UTC
   workflow_dispatch:
 
 concurrency:
