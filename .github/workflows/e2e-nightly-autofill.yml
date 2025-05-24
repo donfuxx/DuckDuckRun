@@ -1,8 +1,8 @@
 name: Autofill Feature Critical Path End-to-End tests
 
 on:
-  schedule:
-    - cron: '30 6 * * *' # run at 6.30 AM UTC
+  # schedule:
+    # - cron: '30 6 * * *' # run at 6.30 AM UTC
   workflow_dispatch:
 
 concurrency:
